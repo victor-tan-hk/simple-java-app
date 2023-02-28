@@ -20,6 +20,13 @@ pipeline {
         sh 'mvn test'            
       }
     }    
+
+    stage('Dummy') {
+      steps {
+        echo 'This is a dummy stage that was just introduced for fun'            
+      }
+    }    
+
     
     stage('Deploy') {
       steps {
