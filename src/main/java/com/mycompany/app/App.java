@@ -10,7 +10,7 @@ public class App {
     public App() {}
 
     public static void main(String[] args) {
-        System.out.println("Jenkins is crap ! I will never ever use it at all ....");
+        System.out.println("Changing to demo periodic polling");
     }
 
     public String getMessage() {
