@@ -22,7 +22,7 @@ pipeline {
 
 
      steps {
-       echo 'Meaningless statement !')
+       echo 'Meaningless statement !'
      }
 
     }
