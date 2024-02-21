@@ -17,6 +17,17 @@ pipeline {
       }
     }
     
+
+    stage('Dummy') {
+
+
+     steps {
+       echo 'Meaningless statement !')
+     }
+
+    }
+
+
     stage('Test') {
       steps {
         sh 'mvn test'            
