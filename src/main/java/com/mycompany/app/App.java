@@ -10,7 +10,7 @@ public class App {
     public App() {}
 
     public static void main(String[] args) {
-        System.out.println("Changing to demo periodic polling");
+        System.out.println("Testing out webhook feature");
     }
 
     public String getMessage() {
